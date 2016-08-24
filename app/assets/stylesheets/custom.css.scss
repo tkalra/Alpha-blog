@@ -50,7 +50,12 @@ $navbar-default-bg:#00008b ;
   background-color: white;
   color: #00008b ;
 }
+//Styling forArticle Updated/Created at UI.
+.article-meta-details {
 
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
+}
 .article-actions {
   border-top: 1px solid #eaeaea;
   padding-top: 5px;
