@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-  # Each user can have many article.
+  #Each user can have many article.
   has_many :articles
   #converts the emails into downcase before saving it in the data base.
   before_save { self.email = email.downcase }
